@@ -1,0 +1,36 @@
+[
+  {
+    "path": "posts/2022-05-09-hello-world/",
+    "title": "Hello World",
+    "description": "First blog post",
+    "author": [
+      {
+        "name": "Logan Herrmeyer",
+        "url": {}
+      }
+    ],
+    "date": "2022-05-09",
+    "categories": [],
+    "contents": "\r\nHello, my name is Logan Herrmeyer.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-05-09T17:09:31-06:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to Spring 2022 Senior Project Blog",
+    "description": "Welcome to our new blog, Spring 2022 Senior Project Blog. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2022-05-09",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-05-09T16:55:37-06:00",
+    "input_file": {}
+  }
+]
