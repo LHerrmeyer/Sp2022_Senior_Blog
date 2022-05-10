@@ -2,19 +2,19 @@
   {
     "path": "posts/2022-05-09-welcome-to-my-project/",
     "title": "Welcome to my project",
-    "description": "A short description of the post.",
+    "description": "An introduction to my senior project.",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "Logan Herrmeyer",
+        "url": {}
       }
     ],
     "date": "2022-05-09",
     "categories": [],
-    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nFlooding is one of the most costly and common types of natural disaster throughout the world. In the United States, over 90 percent of natural disasters involve flooding, and inflict more damage to both life and property than any other natural hazard.1\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-05-09T19:30:19-06:00",
-    "input_file": {}
+    "last_modified": "2022-05-09T19:59:52-06:00",
+    "input_file": "welcome-to-my-project.knit.md"
   },
   {
     "path": "posts/welcome/",
