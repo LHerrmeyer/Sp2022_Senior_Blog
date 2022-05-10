@@ -1,5 +1,0 @@
----
-title: "Spring 2022 Senior Project Blog"
-site: distill::distill_website
-listing: posts
----
