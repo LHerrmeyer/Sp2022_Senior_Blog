@@ -1,7 +1,7 @@
 name: "Sp2022_Senior_Blog"
-title: "Spring 2022 Senior Project Blog"
+title: "Spring 2022 Senior Project"
 description: |
-  Spring 2022 Senior Project Blog
+  Spring 2022 Senior Project
 output_dir: "docs"
 navbar:
   right:
