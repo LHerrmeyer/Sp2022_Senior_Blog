@@ -118,7 +118,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["welcome-to-my-project_files/anchor-4.2.2/anchor.min.js","welcome-to-my-project_files/bowser-1.9.3/bowser.min.js","welcome-to-my-project_files/distill-2.2.21/template.v2.js","welcome-to-my-project_files/header-attrs-2.14/header-attrs.js","welcome-to-my-project_files/jquery-3.6.0/jquery-3.6.0.js","welcome-to-my-project_files/jquery-3.6.0/jquery-3.6.0.min.js","welcome-to-my-project_files/jquery-3.6.0/jquery-3.6.0.min.map","welcome-to-my-project_files/popper-2.6.0/popper.min.js","welcome-to-my-project_files/tippy-6.2.7/tippy-bundle.umd.min.js","welcome-to-my-project_files/tippy-6.2.7/tippy-light-border.css","welcome-to-my-project_files/tippy-6.2.7/tippy.css","welcome-to-my-project_files/tippy-6.2.7/tippy.umd.min.js","welcome-to-my-project_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["grand_forks_flood_1997.jpg","welcome-to-my-project_files/anchor-4.2.2/anchor.min.js","welcome-to-my-project_files/bowser-1.9.3/bowser.min.js","welcome-to-my-project_files/distill-2.2.21/template.v2.js","welcome-to-my-project_files/header-attrs-2.14/header-attrs.js","welcome-to-my-project_files/jquery-3.6.0/jquery-3.6.0.js","welcome-to-my-project_files/jquery-3.6.0/jquery-3.6.0.min.js","welcome-to-my-project_files/jquery-3.6.0/jquery-3.6.0.min.map","welcome-to-my-project_files/popper-2.6.0/popper.min.js","welcome-to-my-project_files/tippy-6.2.7/tippy-bundle.umd.min.js","welcome-to-my-project_files/tippy-6.2.7/tippy-light-border.css","welcome-to-my-project_files/tippy-6.2.7/tippy.css","welcome-to-my-project_files/tippy-6.2.7/tippy.umd.min.js","welcome-to-my-project_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2102,7 +2102,14 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 <div class="d-article">
-<p>Flooding is one of the most costly and common types of natural disaster throughout the world. In the United States, over 90 percent of natural disasters involve flooding, and inflict more damage to both life and property than any other natural hazard.<sup><a href="https://www.dhs.gov/natural-disasters">1</a></sup></p>
+<p>Flooding is one of the most costly and common types of natural disaster throughout the world. In the United States, over 90 percent of natural disasters involve flooding, and inflict more damage to both life and property than any other natural hazard.<sup><a href="https://www.dhs.gov/natural-disasters">(1)</a></sup></p>
+<figure>
+<img src="grand_forks_flood_1997.jpg" alt="Flooding in 1997" /><figcaption aria-hidden="true">Flooding in 1997</figcaption>
+</figure>
+<p>Because of this large hazard, it is is important to prepare for these flooding events ahead of time, to, for example, build structures such as levees and sandbag walls to reduce flooding risk, and to evacuate people and belongings from the potentially flooded area. While modern Numerical Weather Prediction models can predict weather accurately up about ten days in advance <sup><a href="https://www.dhs.gov/natural-disasters">(2)</a></sup>, these weather models cannot predict the risk of flooding for weeks or months in advance. Ten days may not be enough to adequately prepare for major flooding, but multiple weeks, or even months, gives people more time to sufficiently prepare, and potentially safe lives and property.</p>
+<p>Many different climate variables can influence weather in an area weeks or months in advance. For example, El Niño–Southern Oscillation (ENSO), a variation in sea surface temperatures in the tropical Western Pacific Ocean, can have significant impacts on the weather in the US. Generally, during warm, or El Niño events, the northern US has warmer and drier than usual weather, while the southern US has colder and wetter than usual weather. In cold, or, La Niña, events, the opposite generally happens. In cold or mountainous areas, snowpack is another important climate variable that impacts flooding, as snowpack builds for months, and melts later. We can feed this data into a machine learning model to predict how these events impact the probability and expected magnitude of flooding.</p>
+<p>Feeding ENSO data into a machine learning model to predict flooding has been used with some success. The monthly flow of the Yangtze, China’s longest river, was predicted in two major flood years and one minor flood year with good accuracy (<span class="math inline">\(R^2\)</span>=0.8) using historical streamflow data, and ENSO data.<sup><a href="https://www.nature.com/articles/s41598-021-90964-3">(3)</a></sup> Particularly, the ENSO data helped determine the timing and magnitude of the flooding event.</p>
+<p>Through climatic variables and historical data, I will predict streamflows of rivers months in advance, and calculate the probability of exceeding flood stage, as well as the predicted maximum streamflow.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2111,6 +2118,15 @@ document.addEventListener('DOMContentLoaded', function() {
 <div class="d-appendix">
 </div>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
