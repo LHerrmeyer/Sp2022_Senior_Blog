@@ -14,7 +14,24 @@
     "contents": "\r\nDistill is a publication format for scientific and technical writing,\r\nnative to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
     "preview": {},
     "last_modified": "2022-07-10T17:27:33-06:00",
-    "input_file": "initial-patterns-in-river-flow-data.knit.md"
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-07-10-test-post/",
+    "title": "Test post",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Logan Herrmeyer",
+        "url": "https://github.com/LHerrmeyer"
+      }
+    ],
+    "date": "2022-07-10",
+    "categories": [],
+    "contents": "\r\nDistill is a publication format for scientific and technical writing,\r\nnative to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-07-10T16:50:48-06:00",
+    "input_file": {}
   },
   {
     "path": "posts/2022-05-09-welcome-to-my-project/",
@@ -31,7 +48,7 @@
     "contents": "\r\nFlooding is one of the most costly and common types of natural disaster throughout the world. In the United States, over 90 percent of natural disasters involve flooding, and inflict more damage to both life and property than any other natural hazard.(1)\r\nFlooding in 1997Because of this large hazard, it is is important to prepare for these flooding events ahead of time, to, for example, build structures such as levees and sandbag walls to reduce flooding risk, and to evacuate people and belongings from the potentially flooded area. While modern Numerical Weather Prediction models can predict weather accurately up about ten days in advance (2), these weather models cannot predict the risk of flooding for weeks or months in advance. Ten days may not be enough to adequately prepare for major flooding, but multiple weeks, or even months, gives people more time to sufficiently prepare, and potentially safe lives and property.\r\nMany different climate variables can influence weather in an area weeks or months in advance. For example, El Niño–Southern Oscillation (ENSO), a variation in sea surface temperatures in the tropical Western Pacific Ocean, can have significant impacts on the weather in the US. Generally, during warm, or El Niño events, the northern US has warmer and drier than usual weather, while the southern US has colder and wetter than usual weather. In cold, or, La Niña, events, the opposite generally happens. In cold or mountainous areas, snowpack is another important climate variable that impacts flooding, as snowpack builds for months, and melts later. We can feed this data into a machine learning model to predict how these events impact the probability and expected magnitude of flooding.\r\nFeeding ENSO data into a machine learning model to predict flooding has been used with some success. The monthly flow of the Yangtze, China’s longest river, was predicted in two major flood years and one minor flood year with good accuracy (\\(R^2\\)=0.8) using historical streamflow data, and ENSO data.(3) Particularly, the ENSO data helped determine the timing and magnitude of the flooding event.\r\nThrough climatic variables and historical data, I will predict streamflows of rivers months in advance, and calculate the probability of exceeding flood stage, as well as the predicted maximum streamflow.\r\n\r\n\r\n\r\n",
     "preview": {},
     "last_modified": "2022-05-14T22:42:15-06:00",
-    "input_file": "welcome-to-my-project.knit.md"
+    "input_file": {}
   },
   {
     "path": "posts/welcome/",
@@ -45,9 +62,9 @@
     ],
     "date": "2022-05-09",
     "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n",
+    "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-05-09T19:24:40-06:00",
+    "last_modified": "2022-07-10T17:25:52-06:00",
     "input_file": {}
   }
 ]
