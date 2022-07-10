@@ -2147,6 +2147,34 @@ flooding</h2>
 they have wildly different probabilities of flooding. Here is a
 chart:</p>
 <p><img src="river_flood_probabilities.png" /></p>
+<h2 id="correlation-with-enso">Correlation with ENSO</h2>
+<p>Different rivers in different regions are influenced in varying ways
+by the ENSO climate pattern. For example, in Florida, El Niño (above
+average sea surface temperatures in the tropical Pacific) events
+generally cause above average precipitation in the winter dry season, as
+can be seen in the river stage of the Peace River in Arcadia, FL:</p>
+<figure>
+<img src="fl_enso.png" alt="Peace River and ENSO" />
+<figcaption aria-hidden="true">Peace River and ENSO</figcaption>
+</figure>
+<p>A similar, but weaker pattern can be seen in Louisiana with the
+Mississippi River. This pattern may be weaker because the Mississippi
+River is fed by rivers in many different regions of the US, in which
+ENSO has different impacts on the weather.</p>
+<figure>
+<img src="la_enso.png" alt="Mississippi River and ENSO" />
+<figcaption aria-hidden="true">Mississippi River and ENSO</figcaption>
+</figure>
+<h2 id="missing-data">Missing data</h2>
+<p>Some rivers, such as the Red River in North Dakota, often has missing
+data during the winter, as ice obstructs the ability to measure the
+river flow accurately. Because of this missing data, I will not be
+predicting the stage on these seasonally ice covered rivers, and I will
+be predicting future river stage on rivers in warmer regions, that way
+the stage can be predicted year round, and not just outside of the
+winter. I have chosen to predict the Mississippi (Louisiana) and Peace
+(Florida) rivers as they have data available year round, and the river
+stage has generally good correlation with the ENSO climate pattern.</p>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
