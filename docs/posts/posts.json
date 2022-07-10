@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2022-07-10-initial-patterns-in-river-flow-data/",
+    "title": "Initial patterns in river flow data",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Logan Herrmeyer",
+        "url": {}
+      }
+    ],
+    "date": "2022-07-10",
+    "categories": [],
+    "contents": "\r\nDistill is a publication format for scientific and technical writing,\r\nnative to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-07-10T17:27:33-06:00",
+    "input_file": "initial-patterns-in-river-flow-data.knit.md"
+  },
+  {
     "path": "posts/2022-05-09-welcome-to-my-project/",
     "title": "Welcome to my project",
     "description": "An introduction to my senior project.",
