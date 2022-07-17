@@ -1,0 +1,22 @@
+---
+title: "Modeling river stage"
+description: |
+  Forecasting river stage using LSTMs
+author:
+  - name: Logan Herrmeyer
+    url: {}
+date: 2022-07-13
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+To forecast river stage, I chose to use a LSTM based model that incorporated both ENSO and current river stage data at a daily level.
+
+Here is an example of the model's predictions
+
